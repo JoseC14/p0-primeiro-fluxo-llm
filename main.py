@@ -56,13 +56,36 @@ print("+-------------------------------------------------------+")
 print("|                     QUESTÔES                          |")
 print("+-------------------------------------------------------+")
 print(output["topic"])
+print()
 
 print("QUESTÃO 1")
 print(output["questions"]["1"])
+print()
 
 print("QUESTÃO 2")
 print(output["questions"]["2"])
+print()
 
 print("QUESTÃO 3")
 print(output["questions"]["3"])
+print()
 
+print("Aperte enter para receber o gabarito...")
+input()
+
+print("+-------------------------------------------------------+")
+print("|                     GABARITO                          |")
+print("+-------------------------------------------------------+")
+print()
+
+print("GABARITO QUESTÃO 1")
+print(output["answers"]["1"])
+print()
+
+print("GABARITO QUESTÃO 2")
+print(output["answers"]["2"])
+print()
+
+print("GABARITO QUESTÃO 3")
+print(output["answers"]["3"])
+print()
